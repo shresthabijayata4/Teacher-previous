@@ -1,0 +1,69 @@
+$theme-color: #5D369E;
+// $text-color: #333;
+$text-color: #152f2e;
+
+$green:#cdfed2;
+$yellow: #FCF8AB ;
+$red: #FCAAAA ;
+$placeholder: #6C6969;
+
+$calander: #56BC32;
+
+$white: white;
+$border-color: rgba(0,0,0,.125);
+
+body{
+    color: $text-color;
+}
+
+
+.bg-absent{
+    background-color: $red;
+}
+
+.bg-present{
+    background-color: $green;
+}
+.bg-late{
+    background-color: $yellow;
+}
+
+.primary-color{
+    color: $theme-color ;
+}
+
+.text-color{
+    color: $text-color;
+}
+
+.green{
+    color: $green;
+}
+
+.yellow{
+    color: $green;
+}
+
+.red{
+    color: $red;
+}
+
+.placeholder-text{
+    color: $placeholder;
+}
+
+.calander-color{
+    color: $calander;
+}
+
+.bg-theme{
+    background-color: $theme-color;
+}
+
+.white{
+    color: $white;
+}
+
+.border-color{
+    border-color: $border-color;
+}

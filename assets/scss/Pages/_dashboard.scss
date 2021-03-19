@@ -1,0 +1,96 @@
+
+
+
+.wrapper-dashboard{
+    .Dashboard-container{
+        .nav-bar{
+            .nav-bar__container{
+                .container__navbar-row{
+                    
+                    .menu-container{
+                        .menu-container__menu-row{
+                            margin: 0; 
+                            // transform: translateY(50%);
+                            @include translate(50%);
+
+                            .menu-row__menu-items{
+                                ul{
+                               
+                                    li{
+                                        display: inline;
+                                        padding: 10px;
+                                    }
+
+                                }
+                            }
+                            .menu-row__menu-notification{
+                                ul{
+                                    
+                                    float: right;
+                                   
+                                }
+                            }
+                        }
+                    
+                    }
+                }
+            }
+        }
+        .report-summary{
+            .report-summary__container{
+                .container__dropdown-row{
+                    .dropdown-grade{
+                        @extend .text-center;
+                    }
+                    .dropdown-calander{
+                        @extend .text-center;
+                    }
+                }
+                .container__card-row{
+                    i{
+                        @extend .card-i;
+                    }
+                    div{
+                        @extend .bold;
+                        // @extend .floatr;
+                    }
+                    .card__amount{
+                        font-size: 2em;
+                    }
+                    .card-row__present{
+                        .present__card{
+                            @extend .bg-present;
+                          
+                        }
+                       
+                    }
+                    .card-row__absent{
+                        .absent__card{
+                            @extend .bg-absent;
+                            .absent-icon{
+                                
+                            }
+                            .absent-content{
+    
+                            }
+                        }
+                    }
+                   
+                    .card-row__late{
+                        .late__card{
+                            @extend .bg-late;
+                            .late-icon{
+    
+                            }
+                            .late-content{
+    
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+        
+    }
+}

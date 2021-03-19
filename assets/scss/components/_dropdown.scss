@@ -1,0 +1,28 @@
+
+.dropdown{
+    width: 100%;
+ 
+
+}
+.dropdown-pad{
+  padding: 2px 2px;
+}
+
+.dropdown-border{
+ 
+  border: 1px solid $border-color;
+}
+
+.dropdown-grade__input{
+  @extend  .width-100;
+  @extend .dropdown-pad;
+  @extend .dropdown-border;
+  @extend .font-15;
+}
+.dropdown-calander__input{
+  @extend  .width-100;
+  @extend .dropdown-pad;
+  @extend .dropdown-border;
+  @extend .font-15;
+}
+

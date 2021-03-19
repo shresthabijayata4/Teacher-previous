@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+    @extend .text-color;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.active{
+    @extend .primary-color;
+}
+
+.active-bgdaily{
+    // @extend .white;
+    @extend .bg-theme;
+}

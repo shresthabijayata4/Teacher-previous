@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+body {
+  color: #152f2e;
+}
+
+.bg-absent, .card-absenttag, .card-absentreport, .wrapper-dashboard .Dashboard-container .report-summary .report-summary__container .container__card-row .card-row__absent .absent__card {
+  background-color: #FCAAAA;
+}
+
+.bg-present, .card-presenttag, .card-presentreport, .wrapper-dashboard .Dashboard-container .report-summary .report-summary__container .container__card-row .card-row__present .present__card {
+  background-color: #cdfed2;
+}
+
+.bg-late, .card-latetag, .wrapper-dashboard .Dashboard-container .report-summary .report-summary__container .container__card-row .card-row__late .late__card {
+  background-color: #FCF8AB;
+}
+
+.primary-color, .active {
+  color: #5D369E;
+}
+
+.text-color, h1, a {
+  color: #152f2e;
+}
+
+.green {
+  color: #cdfed2;
+}
+
+.yellow {
+  color: #cdfed2;
+}
+
+.red {
+  color: #FCAAAA;
+}
+
+.placeholder-text {
+  color: #6C6969;
+}
+
+.calander-color {
+  color: #56BC32;
+}
+
+.bg-theme, .button, .daily, .button-filter, .button-save, .button-checkattendance, .active-bgdaily {
+  background-color: #5D369E;
+}
+
+.white, .menu-card {
+  color: white;
+}
+
+.border-color {
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+.transform {
+  transform: translateY(50%);
+}
+
+.padding-forminput, .form__input {
+  padding: 8px 8px;
+}
+
+.pt30, .wrapper .wrapper__container .bodywrap .login-container .login-form {
+  padding-top: 30px;
+}
+
+.pt20, .wrapper .wrapper__container .bodywrap .login-container .login-form form .form__password {
+  padding-top: 20px;
+}
+
+.pt10 {
+  padding-top: 10px;
+}
+
+.pt90 {
+  padding-top: 90px;
+}
+
+.pt50 {
+  padding-top: 50px;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+.p10 {
+  padding: 10px;
+}
+
+.button-pad, .button, .daily, .button-save {
+  padding: 8px 30px;
+}
+
+.buttonfilter-pad, .button-filter {
+  padding: 8px 20px;
+}
+
+.button-checkpad, .button-checkattendance {
+  padding: 8px 15px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-15, .dropdown-grade__input, .dropdown-calander__input {
+  font-size: 15px;
+}
+
+.font-10 {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.text-center, .wrapper-dashboard .Dashboard-container .report-summary .report-summary__container .container__dropdown-row .dropdown-grade, .wrapper-dashboard .Dashboard-container .report-summary .report-summary__container .container__dropdown-row .dropdown-calander, .wrapper .wrapper__container .bodywrap .login-container .school-logo, .wrapper .wrapper__container .bodywrap .login-container .school-heading h1 {
+  text-align: center;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.bold, .wrapper-dashboard .Dashboard-container .report-summary .report-summary__container .container__card-row div {
+  font-weight: bold;
+}
+
+.white-font, .button, .daily, .button-filter, .button-save, .button-checkattendance {
+  color: #fff;
+}
+
+p {
+  font-size: 16px;
+}
+
+span {
+  font-size: 15px;
+}
+
+.daily-span {
+  font-size: 13px;
+}
+
+.width-25, .wrapper .wrapper__container .bodywrap .login-container .school-logo img {
+  width: 25%;
+}
+
+.width-15 {
+  width: 15%;
+}
+
+.width-35 {
+  width: 35%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-100, .dropdown-grade__input, .dropdown-calander__input, .form__input {
+  width: 100%;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+.width-13 {
+  width: 13%;
+}
+
+.width-10 {
+  width: 10%;
+}
+
+.width-90 {
+  width: 90%;
+}
+
+.br5, .button, .daily, .button-filter, .button-save, .button-checkattendance {
+  border-radius: 5px;
+}
+
+.bw1, .daily {
+  border-width: 1px solid black;
+}
+
+.item-center {
+  align-items: center;
+}
+
+.floatr {
+  float: right;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.button {
+  border: none;
+}
+
+.search-button {
+  float: right;
+  padding: 6px 10px;
+  margin-right: 16px;
+  background: #5D369E;
+  font-size: 17px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.button-filter {
+  border: none;
+}
+
+.button-save {
+  border: none;
+}
+
+.button-checkattendance {
+  border: none;
+}
+
+.card-attendance {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.card-daily {
+  width: 25%;
+  padding: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card-presenttag {
+  width: 100%;
+  padding: 5px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card-absenttag {
+  width: 100%;
+  padding: 5px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card-latetag {
+  width: 100%;
+  padding: 5px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card-presentreport {
+  width: 40%;
+  padding: 5px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card-absentreport {
+  width: 40%;
+  padding: 5px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.menu-card {
+  border-color: #5D369E;
+}
+
+.dropdown {
+  width: 100%;
+}
+
+.dropdown-pad, .dropdown-grade__input, .dropdown-calander__input {
+  padding: 2px 2px;
+}
+
+.dropdown-border, .dropdown-grade__input, .dropdown-calander__input {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-i, .wrapper-dashboard .Dashboard-container .report-summary .report-summary__container .container__card-row i {
+  font-size: 25px;
+}
+
+.search-input {
+  padding: 5px;
+  width: 25%;
+  font-size: 17px;
+  border: 1px solid #808080;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.wrapper-dashboard .Dashboard-container .nav-bar .nav-bar__container .container__navbar-row .menu-container .menu-container__menu-row {
+  margin: 0;
+  transform: translateY(50%);
+}
+
+.wrapper-dashboard .Dashboard-container .nav-bar .nav-bar__container .container__navbar-row .menu-container .menu-container__menu-row .menu-row__menu-items ul li {
+  display: inline;
+  padding: 10px;
+}
+
+.wrapper-dashboard .Dashboard-container .nav-bar .nav-bar__container .container__navbar-row .menu-container .menu-container__menu-row .menu-row__menu-notification ul {
+  float: right;
+}
+
+.wrapper-dashboard .Dashboard-container .report-summary .report-summary__container .container__card-row .card__amount {
+  font-size: 2em;
+}
+/*# sourceMappingURL=global.css.map */

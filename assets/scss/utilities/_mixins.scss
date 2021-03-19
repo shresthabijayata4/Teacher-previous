@@ -1,0 +1,8 @@
+@mixin translate($value) {
+    transform: translateY($value);
+    
+  }
+
+  .transform{
+      @include translate(50%);
+  }
